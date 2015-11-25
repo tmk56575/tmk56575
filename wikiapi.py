@@ -9,7 +9,6 @@ else:
 
 # dbg, json, none, php, txt, xml, yaml
 data_format = "?format=txt"
-# 
 data_action = "&action=query"
 data_prop = "&prop=revisions"
 data_titles = "&titles="+urllib.parse.quote(title)
